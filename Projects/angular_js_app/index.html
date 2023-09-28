@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Tarefas</title>
+    <script src="lib/angular.min.js"></script>
+    <script src="app.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.8.2/angular-route.min.js"></script>
+</head>
+<body>
+    <div ng-controller="TodoController">
+        <h1>Lista de Tarefas</h1>
+        <div ng-include="templates/todo.html"></div>
+    </div>
+</body>
+</html>
