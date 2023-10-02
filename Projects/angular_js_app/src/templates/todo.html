@@ -1,3 +1,5 @@
 <ul>
   <li ng-repeat="task in tasks">{{ task.name }}</li>
+  <a ng-href="#/tasks">Lista de Tarefas</a>
+  <a ng-href="#/task/{{ task.id }}">Detalhes da Tarefa</a>
 </ul>
